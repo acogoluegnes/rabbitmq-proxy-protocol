@@ -52,8 +52,8 @@ Before starting the broker, enable the appropriate plugins:
 ./rabbitmq-plugins enable rabbitmq_management rabbitmq_amqp1_0 rabbitmq_mqtt rabbitmq_stomp rabbitmq_web_stomp rabbitmq_web_mqtt
 ```
 
-Drop the `configuration/rabbitmq.conf` and `configuration/advanced.config` files
-in the `etc/rabbitmq` directory of your RabbitMQ configuration and
+Drop the `configuration/rabbitmq.conf` file
+in the `etc/rabbitmq` directory of your RabbitMQ installation and
 start the broker.
 
 ## Test scripts
