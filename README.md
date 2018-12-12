@@ -42,7 +42,7 @@ cat server/cert.pem server/key.pem ffdhe2048.txt > /tmp/haproxy-1.8.14/haproxy-s
 Start HAProxy:
 
 ```
-/tmp/haproxy-1.8.14/haproxy -f /tmp/rabbitmq-proxy-protocol/haproxy.cfg -d
+/tmp/haproxy-1.8.14/haproxy -f /tmp/rabbitmq-proxy-protocol/configuration/haproxy.cfg -d
 ```
 
 ## RabbitMQ
